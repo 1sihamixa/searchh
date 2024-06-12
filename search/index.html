@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .search{
+            width:40vmin;
+            height: 5vmin;
+            position:relative;
+            top:10vmin;
+            left:85vmin;
+        }
+        ul{
+            display:flex;
+            flex-direction: row;
+            position:relative;
+            top:10vmin;
+        }
+        li{
+            list-style-type: none;
+            margin-left: 2vmin;
+            color:blue;
+        }
+        #btn {
+            display:block;
+            position:relative;
+            top:25vmin;
+            left:80vmin;
+            font-size: large;
+            color:blue;
+            
+}
+    </style>
+    <title>Search Bar</title>
+</head>
+<body>
+    <div class="container">
+        <h1></h1>
+        <div>
+            <input class="search" type="text" id="searchBar" placeholder="Search">
+        </div>
+        <div id="searchResults">
+            <ul id="lis"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
